@@ -1,0 +1,173 @@
+
+body {
+  background-image: url('pz3dm/slike/pozadina.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.img1 { /*ORV*/
+	height:465px;
+	width:333px;
+}
+.img2 { /*Order and Chaos*/
+	height:227px;
+	width:533px
+}
+.img3 { /*GRANRODEO*/
+	height:300px;
+	width:420px;
+}
+.imgPZ1 {
+	height:277px;
+	width:435px;
+}
+.imgEB {
+	height:230px;
+	width:300px;
+}
+.imgfont{
+		width:640px;
+		height:166px;
+}
+.imgboja{
+	width:310px;
+	height:438px;
+}
+.imgret{
+	width:333px;
+	height:349px;
+}
+.imgret2{
+	width:300px;
+	height:450px;
+}
+.imgkol{
+	width:512px;
+	height:393px;
+}
+.imggif{
+	width:490px;
+	height:270px;
+}
+.imgkol2{
+	width:340px;
+	height:400px;
+}
+.imgkolok2{
+	width:750px;
+	height:500px;
+}
+.imgmont{
+	width:720px;
+	height:495px;
+}
+.descri{
+		font-size:15px;
+		color:blue;
+}
+
+.pozadina{
+	background-image: url("slike/pozadina.jpg");
+	background-color:rgba(0, 1, 52, 1);
+}
+
+.paragraf1{
+	padding:10px;
+	background-color:rgb(104, 104, 232) ;	
+	width: 350px;
+	font-size:40px;
+	color:white;
+	display:inline;
+	border: 2px solid rgba(220, 220, 220, 1);
+}
+
+.paragraf2{
+	padding:10px;
+	background-color:rgb(104, 104, 232) ;	
+	width: 500px;
+	font-size:28px;
+	color:white;
+}
+.link{
+	font-size:25px;
+	color:white;
+}
+.paragraf4omeni{
+	padding:15px;
+	background-color:rgb(104, 104, 232) ;	
+	width: 900px;
+	font-size:22px;
+	color:white;
+}
+
+.naslov{
+	
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+		
+	display:inline;
+	font-size:60px;
+	color:white;
+	text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.naslovint{
+	padding:10px;
+	background-color:rgb(104, 104, 232) ;
+	font-size:30px;
+	color:white;
+	width:100px;
+}
+
+.naslovint2{
+	padding:10px;
+	background-color:rgb(104, 104, 232) ;
+	font-size:30px;
+	color:white;
+	width:125px;
+}
+.naslovint3{
+	padding:10px;
+	background-color:rgb(104, 104, 232) ;
+	font-size:30px;
+	color:white;
+	width:350px;
+	border: 2px solid rgba(0, 2, 50, 0.81);
+}
+
+.naslovint4{
+	padding:10px;
+	background-color:rgb(104, 104, 232) ;
+	font-size:25px;
+	color:white;
+	width:200px;
+}
+<style>
+		ul {	/*centriranje*/
+			width: 100px;
+			} 
+	li {	display:inline; /*prikaz u jednom redu*/
+			background-color:rgba(0, 2, 50, 0.81);
+			padding:15px;
+			font-size:25px;
+			border: 2px solid rgba(104, 104, 232, 0.6);
+		}
+	li:active {background-color:rgba(255, 220, 0, 1);} /*kada kliknemo na li mijenja se boja*/
+		
+		li a {	color:white; 
+				}
+		li a:link {text-decoration:none;}
+		li a:hover {text-decoration:underline;}
+	
+	</style>
